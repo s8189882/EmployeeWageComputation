@@ -10,6 +10,8 @@ public class EmployeeWageBuilder {
 		int empRatePerHr = 20;
 		int isFullTime = 0;
 		int isPartTime = 0;
+		int monthlyWage = 0;
+		int workingDays = 20;
 
 		
 		
@@ -37,6 +39,15 @@ public class EmployeeWageBuilder {
 		
 		}
 		
+		
+		
+		//Calculating Wages for a Month
+		//Assume 20 Working Day per Month
+		dailyWage = workingHours * empRatePerHr;
+		monthlyWage = dailyWage * workingDays;
+		
+		System.out.println("Daily Wage of Employee is : $" + dailyWage);
+		System.out.println("Monthly Wage of Employee is : $" + monthlyWage);
 		
 	}
 }
