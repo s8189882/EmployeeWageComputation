@@ -3,6 +3,7 @@ package javaemployee;
 public class EmployeeWageBuilder {
 
 	public static void main(String[] args) {
+  
 		
 		double empCheck = 0.0;
 		int workingHours = 0;
@@ -21,6 +22,10 @@ public class EmployeeWageBuilder {
 		
 		
 		
+    //Start with Displaying Welcome to Employee Wage Computation Program on Master Branch
+ 		System.out.println("Welcome to Employee Wage Computation Program!");
+    
+    
 		
 		//Calculate Wages till a condition of total working hours or days is reached for a month
 		//Assume 100 hours and 20 days
@@ -72,5 +77,7 @@ public class EmployeeWageBuilder {
 		System.out.println("Total number of Hours worked : " + totalWorkingHours);
 		System.out.println("Total Wage of Employee for the month : $" + totalWage);
 
-	}
+	}		
+ 		
+ 	}
 }
